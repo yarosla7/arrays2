@@ -27,8 +27,12 @@ public class Main {
         System.out.println("\nЗадача_1:");
 
         int arr[] = generateRandomArray();
-
+        int sum = 0;
+        for (int i : arr) {
+        sum += i;
         }
+        System.out.println(sum);
+    } //done
 
 
 
