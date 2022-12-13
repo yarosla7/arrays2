@@ -24,6 +24,7 @@ public class Main {
         System.out.println("\nЗадача_1:");
 
         int[] arr = generateRandomArray();
+
         int sum = 0;
         for (int i : arr) {
         sum += i;
@@ -39,8 +40,10 @@ public class Main {
 
         System.out.println("\nЗадача_2:");
         int[] arr = generateRandomArray();
+
         int maxSpending = Integer.MIN_VALUE;
         int minSpending = Integer.MAX_VALUE;
+
         for (int j : arr) {
             if (j > maxSpending) {
                 maxSpending = j;
@@ -67,8 +70,9 @@ public class Main {
             sum += i;
         }
         double median = (double) sum / arr.length;
+
         System.out.println("Средняя сумма трат за месяц составила " + median + " рублей.");
-        } //done
+    } //done
     public static void task4() {
 
         /*Задача 4
@@ -89,5 +93,5 @@ public class Main {
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
                 System.out.print(reverseFullName[i]);
         }
-        } //done
-    }
+    } //done
+}
