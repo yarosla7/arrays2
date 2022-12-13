@@ -39,6 +39,7 @@ public class Main {
         «Минимальная сумма трат за день составила … рублей. Максимальная сумма трат за день составила … рублей».*/
 
         System.out.println("\nЗадача_2:");
+
         int[] arr = generateRandomArray();
 
         int maxSpending = Integer.MIN_VALUE;
