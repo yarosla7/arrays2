@@ -26,8 +26,8 @@ public class Main {
         int[] arr = generateRandomArray();
 
         int sum = 0;
-        for (int i : arr) {
-        sum += i;
+        for (int q : arr) {
+        sum += q;
         }
         System.out.println("Сумма трат за месяц составила "+ sum +" рублей.");
     } //done
@@ -45,11 +45,11 @@ public class Main {
         int maxSpending = Integer.MIN_VALUE;
         int minSpending = Integer.MAX_VALUE;
 
-        for (int j : arr) {
-            if (j > maxSpending) {
-                maxSpending = j;
-            } else if (j < minSpending) {
-                minSpending = j;
+        for (int q : arr) {
+            if (q > maxSpending) {
+                maxSpending = q;
+            } else if (q < minSpending) {
+                minSpending = q;
             }
         }
         System.out.println("Минимальная сумма трат за день составила " + minSpending + " рублей. Максимальная сумма трат за день составила " + maxSpending + " рублей.");
@@ -67,8 +67,8 @@ public class Main {
         int[] arr = generateRandomArray();
 
         int sum = 0;
-        for (int i : arr) {
-            sum += i;
+        for (int q : arr) {
+            sum += q;
         }
         double median = (double) sum / arr.length;
 
